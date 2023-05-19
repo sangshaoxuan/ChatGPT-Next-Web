@@ -75,11 +75,16 @@ const en: LocaleType = {
         cn: "简体中文",
         en: "English",
         tw: "繁體中文",
+        fr: "Français",
         es: "Español",
         it: "Italiano",
         tr: "Türkçe",
         jp: "日本語",
         de: "Deutsch",
+        vi: "Tiếng Việt",
+        ru: "Русский",
+        cs: "Čeština",
+        ko: "한국어",
       },
     },
     Avatar: "Avatar",
@@ -120,6 +125,9 @@ const en: LocaleType = {
         Add: "Add One",
         Search: "Search Prompts",
       },
+      EditModal: {
+        Title: "Edit Prompt",
+      },
     },
     HistoryCount: {
       Title: "Attached Messages Count",
@@ -158,7 +166,7 @@ const en: LocaleType = {
       Title: "Max Tokens",
       SubTitle: "Maximum length of input tokens and generated tokens",
     },
-    PresencePenlty: {
+    PresencePenalty: {
       Title: "Presence Penalty",
       SubTitle:
         "A larger value increases the likelihood to talk about new topics",
@@ -225,6 +233,14 @@ const en: LocaleType = {
     More: "Find More",
     NotShow: "Not Show Again",
     ConfirmNoShow: "Confirm to disable？You can enable it in settings later.",
+  },
+
+  UI: {
+    Confirm: "Confirm",
+    Cancel: "Cancel",
+    Close: "Close",
+    Create: "Create",
+    Edit: "Edit",
   },
 };
 

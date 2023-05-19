@@ -71,16 +71,21 @@ const de: LocaleType = {
     },
     Lang: {
       Name: "Language", // ATTENTION: if you wanna add a new translation, please do not translate this value, leave it as `Language`
-      All: "All Languages",
+      All: "Alle Sprachen",
       Options: {
         cn: "简体中文",
         en: "English",
         tw: "繁體中文",
+        fr: "Français",
         es: "Español",
         it: "Italiano",
         tr: "Türkçe",
         jp: "日本語",
         de: "Deutsch",
+        vi: "Tiếng Việt",
+        ru: "Русский",
+        cs: "Čeština",
+        ko: "한국어",
       },
     },
     Avatar: "Avatar",
@@ -121,6 +126,9 @@ const de: LocaleType = {
         Add: "Add One",
         Search: "Search Prompts",
       },
+      EditModal: {
+        Title: "Edit Prompt",
+      },
     },
     HistoryCount: {
       Title: "Anzahl der angehängten Nachrichten",
@@ -160,7 +168,7 @@ const de: LocaleType = {
       Title: "Max Tokens", //Maximale Token
       SubTitle: "Maximale Anzahl der Anfrage- plus Antwort-Token",
     },
-    PresencePenlty: {
+    PresencePenalty: {
       Title: "Presence Penalty", //Anwesenheitsstrafe
       SubTitle:
         "Ein größerer Wert erhöht die Wahrscheinlichkeit, dass über neue Themen gesprochen wird",
@@ -229,6 +237,14 @@ const de: LocaleType = {
     More: "Find More",
     NotShow: "Not Show Again",
     ConfirmNoShow: "Confirm to disable？You can enable it in settings later.",
+  },
+
+  UI: {
+    Confirm: "Confirm",
+    Cancel: "Cancel",
+    Close: "Close",
+    Create: "Create",
+    Edit: "Edit",
   },
 };
 
